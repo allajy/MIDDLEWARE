@@ -1,0 +1,35 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: assemble-minioClient
+  aop:
+    proxy-target-class: true
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      file-size-threshold: 500MB
+      maxRequestSize: 500MB
+      max-file-size: 500MB
+#minio
+file:
+  store:
+    minio:
+      endpoint: http://101.37.27.179:9000
+      bucket: oss-server
+      access-key: minioadmin
+      secret-key: minioadmin
+      tmp-dir: ./tmp/
+      tmp-clean: true
+      tmp-first-clean-time: 2021-12-17 11:45:00
+      tmp-clean-period: 12960000
+      tmp-alive-duration: 12960000
+
+redisson:
+  singleServerConfig:
+    address: 101.37.27.179:6379
+
+eventBus:
+  model: disruptor
