@@ -9,6 +9,16 @@
       <module>assemble-platform-common</module>
         <module>assemble-deskConsole</module>
         <module>assemble-platform-process</module>
+        <module>assemble-apiGateway</module>
+      <module>assemble-authSecurity</module>
+        <module>assemble-platform-eventBus</module>
+      <module>assemble-platform-rateLimter</module>
+      <module>assemble-platform-redisDelayer</module>
+        <module>assemble-platform-resource</module>
+      <module>assemble-platform-sharding</module>
+      <module>assemble-platform-taskQueue</module>
+      <module>assemble-platform-uuidKey</module>
+        <module>assemble-platform-baiduidgen</module>
     </modules>
     <packaging>pom</packaging>
 

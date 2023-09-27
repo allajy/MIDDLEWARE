@@ -1,7 +1,7 @@
 package com.bxc.assemble.minio.controller;
 
 import com.bxc.assemble.minio.service.MinioHttpOssService;
-import com.hyts.assemble.common.model.http.ResultResponse;
+import com.bxc.assemble.common.model.http.ResultResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

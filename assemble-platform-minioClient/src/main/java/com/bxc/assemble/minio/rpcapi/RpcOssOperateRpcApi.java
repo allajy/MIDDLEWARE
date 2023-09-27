@@ -1,8 +1,8 @@
 package com.bxc.assemble.minio.rpcapi;
 
 import com.bxc.assemble.minio.model.OssProcessDTO;
-import com.hyts.assemble.common.model.rpc.RpcRequest;
-import com.hyts.assemble.common.model.rpc.RpcResponse;
+import com.bxc.assemble.common.model.rpc.RpcRequest;
+import com.bxc.assemble.common.model.rpc.RpcResponse;
 
 public interface RpcOssOperateRpcApi {
 

@@ -1,6 +1,6 @@
 package com.bxc.assemble.minio.service;
 
-import com.hyts.assemble.common.model.http.ResultResponse;
+import com.bxc.assemble.common.model.http.ResultResponse;
 import com.jvm123.minio.service.MinioFileService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

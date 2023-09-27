@@ -15,7 +15,7 @@
  */
 package com.bxc.assemble.process;
 
-import com.hyts.assemble.process.tasker.SchedulerController;
+import com.bxc.assemble.process.tasker.SchedulerController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ApplicationContext;

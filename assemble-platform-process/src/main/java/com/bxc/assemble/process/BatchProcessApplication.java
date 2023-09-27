@@ -14,9 +14,6 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class BatchProcessApplication {
 
-
-
-
     public static void main(String[] args) {
         System.setProperty("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
         ApplicationContext applicationContext = SpringApplication.run(BatchProcessApplication.class,args);
