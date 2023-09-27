@@ -19,6 +19,20 @@
       <module>assemble-platform-taskQueue</module>
       <module>assemble-platform-uuidKey</module>
         <module>assemble-platform-baiduidgen</module>
+        <module>assemble-zookeeper</module>
+      <module>assemble-dashboard</module>
+      <module>assemble-dynamicTask</module>
+      <module>assemble-generateCode</module>
+      <module>assemble-platform-distributeLock</module>
+      <module>assemble-platform-dubbo3</module>
+      <module>assemble-platform-resilience4j</module>
+      <module>assemble-platform-emailSender</module>
+        <module>assemble-platform-mapdb</module>
+        <module>assemble-platform-ruleEngine</module>
+      <module>assemble-platform-scheduler</module>
+      <module>assemble-platform-sealToolkit</module>
+      <module>assemble-platform-threadMonitor</module>
+      <module>assemble-platform-topology</module>
     </modules>
     <packaging>pom</packaging>
 

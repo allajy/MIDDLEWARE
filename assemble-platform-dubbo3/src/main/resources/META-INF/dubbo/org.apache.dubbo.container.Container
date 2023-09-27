@@ -1,0 +1,6 @@
+undertow=container.com.bxc.assemble.dubbo3.comp.UnderTowContainer
+jetty=container.com.bxc.assemble.dubbo3.comp.JettyContainer
+log4j=container.com.bxc.assemble.dubbo3.comp.Log4jContainer
+
+jetty2=context.com.bxc.assemble.dubbo3.comp.JettyContextContainer
+undertow2=context.com.bxc.assemble.dubbo3.comp.UnderTowContextContainer
