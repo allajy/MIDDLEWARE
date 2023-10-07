@@ -17,7 +17,7 @@ spring:
 file:
   store:
     minio:
-      endpoint: http://101.37.27.179:9000
+      endpoint: http://101.37.27.179:9001 #api地址，控制台地址是http://101.37.27.179:9000
       bucket: oss-server
       access-key: minioadmin
       secret-key: minioadmin
