@@ -2,7 +2,7 @@ package com.bxc.assemble.dynamicTask.client;
 
 
 import com.bxc.assemble.dynamicTask.domain.*;
-import com.hyts.assemble.dynamicTask.domain.*;
+import com.bxc.assemble.dynamicTask.domain.*;
 import com.bxc.assemble.dynamicTask.toolkit.XxlJobRemotingUtil;
 
 /**

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.console.hook
+ * @package-name:com.bxc.assemble.console.hook
  * @description: Environment（profile、属性配置等）创建和初始化好了
  */
 @Component

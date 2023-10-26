@@ -1,9 +1,9 @@
-package com.hyts.assemble.gencode.controller;
+package com.bxc.assemble.gencode.controller;
 
 import com.fengwenyi.api.result.ResponseTemplate;
-import com.hyts.assemble.gencode.config.ErwinProperties;
-import com.hyts.assemble.gencode.service.IIndexService;
-import com.hyts.assemble.gencode.vo.CodeGeneratorRequestVo;
+import com.bxc.assemble.gencode.config.ErwinProperties;
+import com.bxc.assemble.gencode.service.IIndexService;
+import com.bxc.assemble.gencode.vo.CodeGeneratorRequestVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

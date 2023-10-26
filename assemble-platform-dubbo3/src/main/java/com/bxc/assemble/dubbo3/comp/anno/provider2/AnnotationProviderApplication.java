@@ -1,5 +1,5 @@
 /**
- * Copyright [2020] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2020] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,11 +22,11 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.dubbo3.comp.anno
+ * @package-name:com.bxc.assemble.dubbo3.comp.anno
  * @author:LiBo/Alex
  * @create-date:2022-06-06 22:30
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 public class AnnotationProviderApplication {

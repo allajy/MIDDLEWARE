@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.scheduler.hook
+ * @package-name:com.bxc.assemble.scheduler.hook
  * @description:
  */
 @Slf4j

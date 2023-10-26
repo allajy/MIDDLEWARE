@@ -1,4 +1,4 @@
-package com.hyts.assemble.gencode;
+package com.bxc.assemble.gencode;
 
 import com.fengwenyi.apistarter.EnableApiStarter;
 import org.springframework.boot.SpringApplication;

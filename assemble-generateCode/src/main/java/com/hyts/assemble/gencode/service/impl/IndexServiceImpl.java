@@ -1,13 +1,13 @@
-package com.hyts.assemble.gencode.service.impl;
+package com.bxc.assemble.gencode.service.impl;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.fengwenyi.api.result.ResponseTemplate;
 import com.fengwenyi.apistarter.utils.Asserts;
-import com.hyts.assemble.gencode.bo.CodeGeneratorBo;
-import com.hyts.assemble.gencode.generator.MyAutoGenerator;
-import com.hyts.assemble.gencode.service.IIndexService;
-import com.hyts.assemble.gencode.util.HttpUtils;
-import com.hyts.assemble.gencode.vo.CodeGeneratorRequestVo;
+import com.bxc.assemble.gencode.bo.CodeGeneratorBo;
+import com.bxc.assemble.gencode.generator.MyAutoGenerator;
+import com.bxc.assemble.gencode.service.IIndexService;
+import com.bxc.assemble.gencode.util.HttpUtils;
+import com.bxc.assemble.gencode.vo.CodeGeneratorRequestVo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.beans.BeanUtils;

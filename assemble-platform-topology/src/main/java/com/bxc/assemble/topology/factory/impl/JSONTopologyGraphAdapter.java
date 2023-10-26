@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.topology.factory.impl
+ * @package-name:com.bxc.assemble.topology.factory.impl
  * @description: json 拓扑画图的适配器
  */
 public class JSONTopologyGraphAdapter implements TopologyGraphAdapter<Map<String,Object>, MutableNetwork> {

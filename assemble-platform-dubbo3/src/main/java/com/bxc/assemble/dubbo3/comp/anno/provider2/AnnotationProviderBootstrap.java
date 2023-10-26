@@ -1,5 +1,5 @@
 /**
- * Copyright [2020] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2020] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,16 +22,16 @@ import org.springframework.context.annotation.PropertySource;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.dubbo3.comp.anno
+ * @package-name:com.bxc.assemble.dubbo3.comp.anno
  * @author:LiBo/Alex
  * @create-date:2022-06-06 21:27
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 @Configuration
-@EnableDubbo(scanBasePackages = "com.hyts.assemble.dubbo3.comp.anno.provider2")
+@EnableDubbo(scanBasePackages = "com.bxc.assemble.dubbo3.comp.anno.provider2")
 @PropertySource("classpath:dubbo-provider2.properties")
-@ComponentScan(value = {"com.hyts.assemble.dubbo3.comp.anno.provider2"})
+@ComponentScan(value = {"com.bxc.assemble.dubbo3.comp.anno.provider2"})
 public class AnnotationProviderBootstrap {
 }

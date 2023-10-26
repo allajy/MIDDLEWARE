@@ -4,7 +4,7 @@ import com.google.common.base.Joiner;
 
 /**
  * @project-name:callcenter
- * @package-name:com.hyts.callcenter.extense.dlock
+ * @package-name:com.bxc.callcenter.extense.dlock
  * @description: 分布式锁的接口
  */
 public interface DistributeLockSupport<T> {

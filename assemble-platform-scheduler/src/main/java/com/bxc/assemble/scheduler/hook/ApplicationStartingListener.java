@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.common.hook
+ * @package-name:com.bxc.assemble.common.hook
  * @description: 开始容器初始化
  */
 @Component

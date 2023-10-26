@@ -1,4 +1,4 @@
-package com.hyts.assemble.gencode.bo;
+package com.bxc.assemble.gencode.bo;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

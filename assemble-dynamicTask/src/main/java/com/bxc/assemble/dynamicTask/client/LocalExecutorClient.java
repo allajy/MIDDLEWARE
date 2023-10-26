@@ -1,5 +1,5 @@
 /**
- * Copyright [2020] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2020] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import com.bxc.assemble.dynamicTask.constant.ExecutorBlockStrategyEnum;
 import com.bxc.assemble.dynamicTask.domain.*;
 import com.bxc.assemble.dynamicTask.context.DynamicTaskExecutor;
 import com.bxc.assemble.dynamicTask.context.IJobHandler;
-import com.hyts.assemble.dynamicTask.domain.*;
+import com.bxc.assemble.dynamicTask.domain.*;
 import com.bxc.assemble.dynamicTask.glue.GlueTypeEnum;
 import com.bxc.assemble.dynamicTask.log.XxlJobFileAppender;
 import com.bxc.assemble.dynamicTask.thread.JobThread;
@@ -29,11 +29,11 @@ import java.util.Date;
 
 /**
  * @project-name:callcenter
- * @package-name:com.hyts.callcenter.schedule.client
+ * @package-name:com.bxc.callcenter.schedule.client
  * @author:LiBo/Alex
  * @create-date:2022-05-02 19:16
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 public class LocalExecutorClient implements ExecutorBiz{

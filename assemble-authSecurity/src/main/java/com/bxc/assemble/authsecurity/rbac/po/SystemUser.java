@@ -1,5 +1,5 @@
 /**
- * Copyright [2020] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2020] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ import java.io.Serializable;
  * @author:LiBo/Alex
  * @create-date:2021-12-28 8:54 下午
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description: 系统用户的基础模型
  */
 @Data

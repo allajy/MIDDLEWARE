@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.console.hook
+ * @package-name:com.bxc.assemble.console.hook
  * @description: 容器完全准备好了，但是bean definition还没有加载 refresh() --- 具体的注入bean
  * 应用准备完成，开始定义bean，但还没有刷新到上下文
  */

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.console.hook
+ * @package-name:com.bxc.assemble.console.hook
  * @description:  context上下文本身创建和初始化好了，ApplicationContextInitializer都已经执行了,上下文初始化完成
  */
 @Component

@@ -1,4 +1,4 @@
-package com.hyts.assemble.gencode.util;
+package com.bxc.assemble.gencode.util;
 
 import org.springframework.http.HttpStatus;
 

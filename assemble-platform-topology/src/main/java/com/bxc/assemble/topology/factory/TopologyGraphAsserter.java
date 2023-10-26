@@ -5,7 +5,7 @@ import lombok.Getter;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.topology.factory
+ * @package-name:com.bxc.assemble.topology.factory
  * @description: 拓扑断言操作
  */
 public class TopologyGraphAsserter<NODE,LINE> {

@@ -173,8 +173,8 @@ resilience4j:
         automaticTransitionFromOpenToHalfOpenEnabled: false # 是否自动从打开到半开，不需要触发
         recordFailurePredicate:    com.example.resilience4j.exceptions.RecordFailurePredicate # 谓词设置异常是否为失败
         recordExceptions: # 记录的异常
-          - com.hyts.resilience4j.exceptions.Service1Exception
-          - com.hyts.resilience4j.exceptions.Service2Exception
+          - com.bxc.resilience4j.exceptions.Service1Exception
+          - com.bxc.resilience4j.exceptions.Service2Exception
         ignoreExceptions: # 忽略的异常
           - com.example.resilience4j.exceptions.BusinessAException
     instances:

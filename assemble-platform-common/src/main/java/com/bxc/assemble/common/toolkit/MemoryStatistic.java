@@ -1,5 +1,5 @@
 /**
- * Copyright [2019] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2019] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ import java.lang.management.MemoryMXBean;
  * @author:LiBo/Alex
  * @create-date:2022-05-26 11:10
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 @Slf4j

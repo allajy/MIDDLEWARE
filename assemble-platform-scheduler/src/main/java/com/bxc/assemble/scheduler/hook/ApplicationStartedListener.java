@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @project-name:assemble-platform
- * @package-name:com.hyts.assemble.console.hook
+ * @package-name:com.bxc.assemble.console.hook
  * @description: 初始化完成
  */
 @Component

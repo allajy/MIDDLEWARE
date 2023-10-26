@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-slim
 
-MAINTAINER liboware@gmail.com
+MAINTAINER 171779852@qq.com
 
 ENV PARAMS="zookeeper.port=2181"
 

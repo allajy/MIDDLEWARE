@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @project-name:callcenter
- * @package-name:com.hyts.callcenter.extense.dlock
+ * @package-name:com.bxc.callcenter.extense.dlock
  * @description: 分布式锁Param参数
  */
 @Data

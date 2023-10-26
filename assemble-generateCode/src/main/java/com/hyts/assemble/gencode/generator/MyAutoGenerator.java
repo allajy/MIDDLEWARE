@@ -1,4 +1,4 @@
-package com.hyts.assemble.gencode.generator;
+package com.bxc.assemble.gencode.generator;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;
@@ -10,8 +10,8 @@ import com.baomidou.mybatisplus.generator.config.builder.Entity;
 import com.baomidou.mybatisplus.generator.config.builder.Mapper;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.hyts.assemble.gencode.Config;
-import com.hyts.assemble.gencode.bo.CodeGeneratorBo;
+import com.bxc.assemble.gencode.Config;
+import com.bxc.assemble.gencode.bo.CodeGeneratorBo;
 import org.apache.commons.lang3.BooleanUtils;
 import org.springframework.util.StringUtils;
 

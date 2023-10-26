@@ -1,15 +1,19 @@
 package com.bxc.assemble.minio;
 
 import cn.hutool.core.net.NetUtil;
+import com.bxc.assemble.common.config.SwaggerConfiguration;
 import com.jvm123.minio.config.MinioProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Import;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Slf4j
 @SpringBootApplication
+@Import(SwaggerConfiguration.class)
 public class OssClientApplication {
 
     public static void main(String[] args) {

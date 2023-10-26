@@ -1,7 +1,7 @@
-package com.hyts.assemble.gencode.service;
+package com.bxc.assemble.gencode.service;
 
 import com.fengwenyi.api.result.ResponseTemplate;
-import com.hyts.assemble.gencode.vo.CodeGeneratorRequestVo;
+import com.bxc.assemble.gencode.vo.CodeGeneratorRequestVo;
 
 
 public interface IIndexService {

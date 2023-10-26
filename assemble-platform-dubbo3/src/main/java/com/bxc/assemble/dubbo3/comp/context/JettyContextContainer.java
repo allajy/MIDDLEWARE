@@ -1,5 +1,5 @@
 /**
- * Copyright [2019] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2019] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,11 +34,11 @@ import java.io.IOException;
 
 /**
  * @project-name:middleware
- * @package-name:com.hyts.assemble.dubbo3.comp.context
+ * @package-name:com.bxc.assemble.dubbo3.comp.context
  * @author:LiBo/Alex
  * @create-date:2022-11-24 22:07
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 public class JettyContextContainer implements Container {

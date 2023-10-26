@@ -1,4 +1,4 @@
-package com.hyts.assemble.gencode.vo;
+package com.bxc.assemble.gencode.vo;
 
 import lombok.Data;
 

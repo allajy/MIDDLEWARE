@@ -1,5 +1,5 @@
 /**
- * Copyright [2020] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2020] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ package com.bxc.assemble.dynamicTask.config;
 
 import com.bxc.assemble.dynamicTask.dao.*;
 import com.bxc.assemble.dynamicTask.alarm.JobAlarmer;
-import com.hyts.assemble.dynamicTask.dao.*;
+import com.bxc.assemble.dynamicTask.dao.*;
 import com.bxc.assemble.dynamicTask.engine.TaskDriverScheduler;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
@@ -31,11 +31,11 @@ import java.util.Arrays;
 
 /**
  * @project-name:callcenter
- * @package-name:com.hyts.callcenter.schedule.config
+ * @package-name:com.bxc.callcenter.schedule.config
  * @author:LiBo/Alex
  * @create-date:2022-05-02 15:46
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 @Component

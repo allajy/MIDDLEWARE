@@ -173,7 +173,7 @@ log4j=container.com.bxc.assemble.dubbo3.comp.Log4jContainer
  *   limitations under the License.
  *
  */
-package com.hyts.assemble.dubbo3.comp.container;
+package com.bxc.assemble.dubbo3.comp.container;
 
 import cn.hutool.core.util.NumberUtil;
 import com.alibaba.dubbo.container.Container;
@@ -261,7 +261,7 @@ public class JettyContainer implements Container {
 
 ```java
 /**
- * Copyright [2019] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2019] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -275,7 +275,7 @@ public class JettyContainer implements Container {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.dubbo3.comp.container;
+package com.bxc.assemble.dubbo3.comp.container;
 
 import ch.qos.logback.core.Appender;
 import org.apache.dubbo.common.config.ConfigurationUtils;
@@ -295,11 +295,11 @@ import java.util.Properties;
 
 /**
  * @project-name:middleware
- * @package-name:com.hyts.assemble.dubbo3.comp.container
+ * @package-name:com.bxc.assemble.dubbo3.comp.container
  * @author:LiBo/Alex
  * @create-date:2022-11-05 23:19
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 public class Log4jContainer implements Container {
@@ -385,7 +385,7 @@ public class Log4jContainer implements Container {
 ##### UnderTowContainer代码类
 ```java
 /**
- * Copyright [2019] [LiBo/Alex of copyright liboware@gmail.com ]
+ * Copyright [2019] [LiBo/Alex of copyright 171779852@qq.com ]
  * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -399,7 +399,7 @@ public class Log4jContainer implements Container {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.hyts.assemble.dubbo3.comp.container;
+package com.bxc.assemble.dubbo3.comp.container;
 
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.util.NumberUtil;
@@ -418,7 +418,7 @@ import java.util.stream.Collectors;
  * @author:LiBo/Alex
  * @create-date:2022-11-05 22:56
  * @copyright:libo-alex4java
- * @email:liboware@gmail.com
+ * @email:171779852@qq.com
  * @description:
  */
 public class UnderTowContainer implements Container {
@@ -471,7 +471,7 @@ public class UnderTowContainer implements Container {
  *
  */
 
-package com.hyts.assemble.dubbo3.comp.container;
+package com.bxc.assemble.dubbo3.comp.container;
 
 public class ContainerBootstrap {
     public static void main(String[] args) {
