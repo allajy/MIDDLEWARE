@@ -6,7 +6,6 @@ import com.fengwenyi.apistarter.utils.Asserts;
 import com.bxc.assemble.gencode.bo.CodeGeneratorBo;
 import com.bxc.assemble.gencode.generator.MyAutoGenerator;
 import com.bxc.assemble.gencode.service.IIndexService;
-import com.bxc.assemble.gencode.util.HttpUtils;
 import com.bxc.assemble.gencode.vo.CodeGeneratorRequestVo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.exception.ExceptionUtils;
