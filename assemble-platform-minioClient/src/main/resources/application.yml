@@ -17,19 +17,19 @@ spring:
 file:
   store:
     minio:
-      endpoint: http://101.37.27.179:9001 #api地址，控制台地址是http://101.37.27.179:9000
+      endpoint: http://101.37.164.200:19000 #api地址，控制台地址是http://101.37.164.200:9090
       bucket: oss-server
       access-key: minioadmin
       secret-key: minioadmin
       tmp-dir: ./tmp/
       tmp-clean: true
-      tmp-first-clean-time: 2021-12-17 11:45:00
+      tmp-first-clean-time: 2023-12-17 11:45:00
       tmp-clean-period: 12960000
       tmp-alive-duration: 12960000
 
 redisson:
   singleServerConfig:
-    address: 101.37.27.179:6379
+    address: 101.37.164.200:6379
 
 eventBus:
   model: disruptor

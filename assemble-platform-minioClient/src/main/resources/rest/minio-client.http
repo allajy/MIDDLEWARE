@@ -1,13 +1,13 @@
 
 ### 创建bucket服务
 
-GET http://localhost:8001/oss/create?bucketName=oss-dev
+GET http://localhost:8001/api/oss/create?bucketName=oss-dev
 
 
 ### upload上传文件服务功能控制
 
 
-POST http://localhost:8001/oss/upload?bucketName=oss-dev
+POST http://localhost:8001/api/oss/upload?bucketName=oss-dev
 # Request Headers
 Cache-Control: no-cache
 Content-Type: multipart/form-data; boundary=WebAppBoundary
@@ -15,20 +15,20 @@ Content-Type: multipart/form-data; boundary=WebAppBoundary
 # name = 参数名
 # filename = 文件名
 --WebAppBoundary
-Content-Disposition: form-data; name="file";filename="Dubbo3的新特性.png"
+Content-Disposition: form-data; name="file";filename="1.xlsx"
 Content-Type: multipart/form-data
 # 本地文件地址
-< /Users/alex/Desktop/Dubbo3的新特性.png
+< C:/Users/Administrator/Desktop/1.xlsx
 --WebAppBoundary--
 
 
 ### delete上传文件服务功能控制
 
-DELETE http://localhost:8001/oss/delete?bucketName=oss-dev&fileName=test.xlsx
+DELETE http://localhost:8001/api/oss/delete?bucketName=oss-dev&fileName=1.xlsx
 
 
 ### 下载上传文件服务功能控制
 
-GET http://localhost:8001/oss/download?bucketName=oss-dev&fileName=test.xlsx
+GET http://localhost:8001/api/oss/download?bucketName=oss-dev&fileName=1.xlsx
 
 

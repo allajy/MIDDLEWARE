@@ -77,21 +77,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.bxc</groupId>-->
-<!--            <artifactId>assemble-platform-rateLimter</artifactId>-->
-<!--            <version>${version}</version>-->
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <artifactId>springfox-swagger-ui</artifactId>-->
-<!--                    <groupId>io.springfox</groupId>-->
-<!--                </exclusion>-->
-<!--                <exclusion>-->
-<!--                    <artifactId>springfox-swagger2</artifactId>-->
-<!--                    <groupId>io.springfox</groupId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.bxc</groupId>
+            <artifactId>assemble-platform-rateLimter</artifactId>
+            <version>${version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>springfox-swagger-ui</artifactId>
+                    <groupId>io.springfox</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>springfox-swagger2</artifactId>
+                    <groupId>io.springfox</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>com.bxc</groupId>-->
 <!--            <artifactId>assemble-platform-taskQueue-core</artifactId>-->
@@ -150,17 +150,17 @@
                 </exclusion>
             </exclusions>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.bxc</groupId>-->
-<!--            <artifactId>assemble-platform-process</artifactId>-->
-<!--            <version>${version}</version>-->
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <artifactId>springfox-swagger2</artifactId>-->
-<!--                    <groupId>io.springfox</groupId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.bxc</groupId>
+            <artifactId>assemble-platform-process</artifactId>
+            <version>${version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>springfox-swagger2</artifactId>
+                    <groupId>io.springfox</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>

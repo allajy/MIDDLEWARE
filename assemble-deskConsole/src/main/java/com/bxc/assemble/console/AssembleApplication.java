@@ -2,6 +2,8 @@ package com.bxc.assemble.console;
 
 import cn.hutool.core.net.NetUtil;
 import com.bxc.assemble.minio.config.EnableMinioClient;
+import com.bxc.assemble.process.config.Knif4jConfiguration;
+import com.bxc.assemble.ratelimiter.EnableRateLimiter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,11 +14,11 @@ import org.springframework.context.annotation.Import;
 @Slf4j
 @SpringBootApplication
 @Import(Knif4jConfiguration.class)
-//@EnableRateLimiter
+@EnableRateLimiter
 //@EnableEventBus
 //@EnableUUIDKey
 //@EnableTaskQueueProxy
-@EnableMinioClient
+//@EnableMinioClient
 //@EnableDelayedQueue
 public class AssembleApplication {
 

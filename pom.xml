@@ -7,28 +7,28 @@
     <modules>
       <module>assemble-platform-minioClient</module>
       <module>assemble-platform-common</module>
-<!--        <module>assemble-deskConsole</module>-->
-        <module>assemble-platform-process</module>
-        <module>assemble-apiGateway</module>
+      <module>assemble-deskConsole</module>
+      <module>assemble-platform-process</module>
+      <module>assemble-apiGateway</module>
       <module>assemble-authSecurity</module>
-        <module>assemble-platform-eventBus</module>
+      <module>assemble-platform-eventBus</module>
       <module>assemble-platform-rateLimter</module>
-<!--      <module>assemble-platform-redisDelayer</module>-->
-        <module>assemble-platform-resource</module>
+      <module>assemble-platform-redisDelayer</module>
+      <module>assemble-platform-resource</module>
       <module>assemble-platform-sharding</module>
       <module>assemble-platform-taskQueue</module>
       <module>assemble-platform-uuidKey</module>
-        <module>assemble-platform-baiduidgen</module>
-        <module>assemble-zookeeper</module>
+      <module>assemble-platform-baiduidgen</module>
+      <module>assemble-zookeeper</module>
       <module>assemble-dashboard</module>
       <module>assemble-dynamicTask</module>
       <module>assemble-generateCode</module>
-<!--      <module>assemble-platform-distributeLock</module>-->
+      <module>assemble-platform-distributeLock</module>
       <module>assemble-platform-dubbo3</module>
       <module>assemble-platform-resilience4j</module>
-<!--      <module>assemble-platform-emailSender</module>-->
-        <module>assemble-platform-mapdb</module>
-        <module>assemble-platform-ruleEngine</module>
+      <module>assemble-platform-emailSender</module>
+      <module>assemble-platform-mapdb</module>
+      <module>assemble-platform-ruleEngine</module>
       <module>assemble-platform-scheduler</module>
       <module>assemble-platform-sealToolkit</module>
       <module>assemble-platform-threadMonitor</module>
